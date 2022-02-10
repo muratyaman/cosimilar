@@ -1,5 +1,6 @@
 # cosimilar
-calculate similarity matrix for multiple files using cosine similarity
+calculate similarity matrix for multiple files using [cosine similarity](https://en.wikipedia.org/wiki/Cosine_similarity)
+
 
 ```sh
 node index.js lorem1.txt lorem2.txt lorem3.txt
