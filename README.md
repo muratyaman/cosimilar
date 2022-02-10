@@ -1,5 +1,13 @@
 # cosimilar
+
 calculate similarity matrix for multiple files using [cosine similarity](https://en.wikipedia.org/wiki/Cosine_similarity)
+
+main algorithm:
+
+* create a word list
+* count words
+* when comparing 2 word counters, combine word lists and create a word counter map based on larger list
+* calculate cosine similarity usingnumber vectors for each file (ignore words but the order is important)
 
 
 ```sh
